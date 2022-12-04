@@ -4,7 +4,7 @@ course material related to Docker and containers, intended for in-training new d
 ## 0. What is Docker
 In a few words: Docker is an open source software that help us to **DEPLOY** applications witouth installing all the stuff required to make it work through a technology called container. 
 ## 0.1 Containers... Containers? Containers!
-A container is a package of software that contains all the source code and its dependencies, for example, in the tabletop game Dungeons and Dragons you need to start buying books to know the rules, world building, gameplay, etc. but if you want to play right now, theres a starter kit wich contains all the items to play inmediatly witouht knowing all the background, just open the box read a few pages and play, that's awesome, right? Well containers can act as a starter kit of a software application
+A container is a package of software that contains all the source code and its dependencies, for example, in the tabletop game Dungeons and Dragons you need to start buying books to know the rules, world building, gameplay, etc. but if you want to play right now, theres a starter kit wich contains all the items to play inmediatly witouht knowing all the background, just open the box read a few pages and play, that's awesome, right? Well containers can act as a starter kit of a software application.
 
 <img src="img/../imgs/dnd.jpg" alt="just works" width="200">
 
@@ -22,6 +22,17 @@ If is your first time installing and working with docker, maybe it will be a lit
 >3. <a href="https://docs.docker.com/desktop/install/windows-install/">Windows</a>
 
 
-## 3. What, How Why
+## 3. What, How, Why
 ### 3.1 What
-Docker
+As we mentioned, Docker is open source and can make the apps work with containers, a container is a lightweight unit, that includes all the packages of software that is needed to run an application:
+
+- Source Code.
+- System tools and libraries.
+- Settings.
+
+### 3.2 How
+The containers are part of the application layer (OSI), where the code is compiled.
+#### 3.2.1 Containers as images
+A container image is a file wich contains all the code  that allows it to run an only process, but in the industry this technology already exists and has a name: "Virtual machines", but a virtual machine needs to be initialized like a personal computer.
+#### 3.2.2 Containers as standard
+As we mentioned a container can be used to run one application, but what if we need to create a new app based on the main app, well, you can create a standard container image,but you don´t need to start from zero, the Open container standard initiative (OCI)
