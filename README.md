@@ -6,7 +6,7 @@ In a few words: Docker is an open source software that help us to **DEPLOY** app
 ## 0.1 Containers... Containers? Containers!
 A container is a package of software that containes all the source code and its dependencies, for example, in the tabletop game Dungeons and Dragons you need to start buying books to know the rules, world building, gameplay, etc. but if you want to play right now, theres a starter kit wich contains all the stuff to play inmediatly witouht knowing all the background, just open the box read a few pages and play, that's awesome, right? Well containers can act as a starter kit of a software application
 
-<img src ="https://flic.kr/p/pZbYJ7"></img>
+<img src="img/../dnd.jpg" alt="just works" width="200">
 
 ## 1. Documentation
 The first place to start is <a href="https://docs.docker.com/"> the docs </a>, this is your best resource because is writed by the creators 
