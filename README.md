@@ -4,7 +4,7 @@ course material related to Docker and containers, intended for in-training new d
 ## 0. What is Docker
 In a few words: Docker is an open source software that help us to **DEPLOY** applications witouth installing all the stuff required to make it work through a technology called container. 
 ## 0.1 Containers... Containers? Containers!
-A container is a package of software that containes all the source code and its dependencies, for example, in the tabletop game Dungeons and Dragons you need to start buying books to know the rules, world building, gameplay, etc. but if you want to play right now, theres a starter kit wich contains all the stuff to play inmediatly witouht knowing all the background, just open the box read a few pages and play, that's awesome, right? Well containers can act as a starter kit of a software application
+A container is a package of software that contains all the source code and its dependencies, for example, in the tabletop game Dungeons and Dragons you need to start buying books to know the rules, world building, gameplay, etc. but if you want to play right now, theres a starter kit wich contains all the stuff to play inmediatly witouht knowing all the background, just open the box read a few pages and play, that's awesome, right? Well containers can act as a starter kit of a software application
 
 <img src="img/../imgs/dnd.jpg" alt="just works" width="200">
 
