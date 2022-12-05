@@ -22,17 +22,20 @@ If is your first time installing and working with docker, maybe it will be a lit
 >3. <a href="https://docs.docker.com/desktop/install/windows-install/">Windows</a>
 
 
-## 3. What, How, Why
-### 3.1 What
+## **3. What, How, Why**
+### **3.1 What**
 As we mentioned, Docker is open source and can make the apps work with containers, a container is a lightweight unit, that includes all the packages of software that is needed to run an application:
 
 - Source Code.
 - System tools and libraries.
 - Settings.
 
-### 3.2 How
+### **3.2 How**
 The containers are part of the application layer (OSI), where the code is compiled.
-#### 3.2.1 Containers as images
+#### **3.2.1 Containers as images**
 A container image is a file wich contains all the code  that allows it to run an only process, but in the industry this technology already exists and has a name: "Virtual machines", but a virtual machine needs to be initialized like a personal computer.
-#### 3.2.2 Containers as standard
-As we mentioned a container can be used to run one application, but what if we need to create a new app based on the main app, well, you can create a standard container image,but you don´t need to start from zero, the Open container standard initiative (OCI)
+#### **3.2.2 Containers as standard**
+As we mentioned a container can be used to run one application, but what if we need to create a new app based on the main app, well, you can create a standard container image,but you don´t need to start from zero, the Open container standard initiative (OCI) is the open governance structure with the purpose of create the open industry standards.
+
+### **3.3 Why**
+Standard, Lightweight, 
