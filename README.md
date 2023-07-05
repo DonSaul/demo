@@ -11,6 +11,7 @@ A container is a package of software that contains all the source code and its d
 <img src="img/../imgs/dnd.jpg" alt="just works" width="200">
 
 ## 1. Documentation
+## ejemplo
 The first place to start is <a href="https://docs.docker.com/"> the docs </a>, this is your best resource because is written by the creators 
 
 ## 2. Obtain Docker
